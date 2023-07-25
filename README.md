@@ -7,7 +7,7 @@ I insist, **i've never programmed anything for consoles**, so maybe i'm doing wr
 * Start button toggles WIFI on rosalina menu ([from the Quick Switchers fork by DullPointer](https://github.com/LumaTeam/Luma3DS/commit/c1a20558bed3d792d54069719a898006af20ba85))
 * IP address shown when X pressed on rosalina menu ([original PR by ReplayCoding](https://github.com/LumaTeam/Luma3DS/pull/1282/commits/35f6ab10c9e5240d0a64bc09c335ed06bc00f700))
 
-  Note: the original PR always shows the ip on the menu (not only when X is pressed), but from my testing it seems that having minisoc started (used to get the ip) makes the console shutdown pretty slow. I still sometimes want a quick access to the IP address but most of the time I prefer a not slow shutdown, so i had found a compromise.
+  Note: the original PR always shows the ip on the menu (not only when X is pressed), but from my testing it seems that having minisoc started (used to get the ip) makes the console shutdown pretty slow. I still sometimes want a quick access to the IP address but most of the time I prefer a not slow shutdown, so i had found a compromise. Also, when it shows "0.0.0.0", it probably means the 3DS is not connected (i think. idk i hate networking)
 
 
 # Now the Original Readme
