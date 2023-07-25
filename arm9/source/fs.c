@@ -522,10 +522,15 @@ bool doLumaUpgradeProcess(void)
     remountCtrNandPartition(false);
 #endif
 
-    // Try to boot.firm to CTRNAND, when applicable
+    // don't copy boot.firm to ctrnand. i don't trust my fork enough to want it on the ctrnand.
+    // what if my sd card dies while i'm on vacation and i can only boot a broken luma :( 
+#if 0
 #ifndef BUILD_FOR_EXPLOIT_DEV
     if (isSdMode && memcmp(launchedPathForFatfs, "sdmc:", 5) == 0)
         ok = fileCopy(launchedPathForFatfs, "nand:/boot.firm", true, fileCopyBuffer, sizeof(fileCopyBuffer));
+#endif
+#else
+    (void)ok; 
 #endif
 
     // Try to backup essential files
