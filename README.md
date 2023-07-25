@@ -1,3 +1,15 @@
+# Why this fork
+I initially used the [Luma 10.3 with Night/Light and Quick-Switchers](https://gbatemp.net/download/luma-10-3-with-night-light-and-quick-switchers.35619/) mod by DullPointer, but it was on 10.3 and i wanted to use the latest Luma v13. But there are some features from the Quick-Switchers fork that I absolutely needed, for example toggling wifi with START on rosalina menu (very handy on n3DS). I also noticed there were some rejected pull requests on the official Luma3DS repo. I've never programmed anything for consoles, nor anything significant in C, but the code was simple enough that i could merge and customize some stuff.
+
+I insist, **i've never programmed anything for consoles**, so maybe i'm doing wrong and buggy stuff. Although the changes i added for the moment are pretty innofensive, keep backups in case something goes wrong (it won't be my fault :)
+
+# Added functionnality
+* Start button toggles WIFI on rosalina menu ([from the Quick Switchers fork by DullPointer](https://github.com/LumaTeam/Luma3DS/commit/c1a20558bed3d792d54069719a898006af20ba85))
+* IP address always shown on rosalina menu ([original PR by ReplayCoding](https://github.com/LumaTeam/Luma3DS/pull/1282/commits/35f6ab10c9e5240d0a64bc09c335ed06bc00f700))
+
+
+# Now the Original Readme
+
 # Luma3DS
 *Noob-proof (N)3DS "Custom Firmware"*
 
