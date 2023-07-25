@@ -8,11 +8,11 @@ I insist, **i've never programmed anything for consoles**, so maybe i'm doing wr
 * IP address shown when X pressed on rosalina menu ([original PR by ReplayCoding](https://github.com/LumaTeam/Luma3DS/pull/1282/commits/35f6ab10c9e5240d0a64bc09c335ed06bc00f700))
 
 
-  Note: the original PR always shows the ip on the menu (not only when X is pressed), but from my testing it seems that having minisoc started (used to get the ip) makes the console shutdown pretty slow. I still sometimes want a quick access to the IP address but most of the time I prefer a not slow shutdown, so i had found a compromise. Also, when it shows "0.0.0.0", it probably means the 3DS is not connected (i think. idk i hate networking)
+  >Note: the original PR always shows the ip on the menu (not only when X is pressed), but from my testing it seems that having minisoc started (used to get the ip) makes the console shutdown pretty slow. I still sometimes want a quick access to the IP address but most of the time I prefer a not slow shutdown, so i had found a compromise. Also, when it shows "0.0.0.0", it probably means the 3DS is not connected (i think. idk i hate networking)
 
 * Disabled copying boot.firm to CTRNAND after an upgrade. NOT TESTED, although it should work and the worst that can happen is a crash upon first boot.
 
-  Reason: Not only do I disagree with the decision of making it mandatory, I also don't trust my fork enough to want it on CTRNAND, I want the most stable thing possible on CTRNAND/boot.firm as a way to always have a functional system even if I don't have access to an sd card reader.
+  >Reason: Not only do I disagree with the decision of making it mandatory, I also don't trust my fork enough to want it on CTRNAND, I want the most stable thing possible on CTRNAND/boot.firm as a way to always have a functional system even if I don't have access to an sd card reader.
 
 
 # Now the Original Readme
